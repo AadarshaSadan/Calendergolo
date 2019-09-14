@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!--<shape xmlns:android="http://schemas.android.com/apk/res/android">--><!--<size--><!--android:width="120dp"--><!--android:height="120dp" />--><!--<corners--><!--android:bottomLeftRadius="65dp"--><!--android:bottomRightRadius="65dp"--><!--android:topLeftRadius="65dp"--><!--android:topRightRadius="65dp" />--><!--<stroke--><!--android:width="2dp"--><!--android:color="#FFFFFF" />--><!--</shape>-->
+
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:width="30dp"
+        android:height="30dp"
+        android:bottom="-2dip"
+        android:gravity="center"
+        android:left="2dp">
+        <shape xmlns:android="http://schemas.android.com/apk/res/android">
+            <size
+                android:width="20dp"
+                android:height="20dp" />
+            <corners
+                android:bottomLeftRadius="65dp"
+                android:bottomRightRadius="65dp"
+                android:topLeftRadius="65dp"
+                android:topRightRadius="65dp" />
+            <stroke
+                android:width="1dp"
+                android:color="#FF5252" />
+        </shape>
+    </item>
+
+
+<!--    <item-->
+<!--        android:width="10dp"-->
+<!--        android:height="10dp"-->
+<!--        android:bottom="0dp"-->
+<!--        android:gravity="center|bottom"-->
+<!--        android:left="0.00001dip"-->
+<!--        android:right="0.00001dip"-->
+<!--        android:top="0.01dip">-->
+<!--        <shape xmlns:android="http://schemas.android.com/apk/res/android">-->
+<!--            <size-->
+<!--                android:width="10dp"-->
+<!--                android:height="10dp" />-->
+<!--            <solid android:color="@color/colorAccent" />-->
+<!--            <corners-->
+<!--                android:bottomLeftRadius="6dp"-->
+<!--                android:bottomRightRadius="6dp"-->
+<!--                android:topLeftRadius="6dp"-->
+<!--                android:topRightRadius="6dp" />-->
+
+<!--        </shape>-->
+<!--    </item>-->
+
+
+</layer-list>

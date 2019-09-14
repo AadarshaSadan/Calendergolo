@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="@drawable/finalviewbackground"
+    android:layout_height="match_parent">
+
+<TextView
+    android:id="@+id/month"
+    android:layout_marginTop="0dp"
+    android:layout_width="match_parent"
+    android:textAlignment="center"
+    android:layout_height="wrap_content"
+    android:textColor="#fffF"
+    android:textSize="20sp"
+    android:text="September"
+    />
+
+    <GridLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:id="@+id/GridLayout1"
+        android:layout_width="match_parent"
+       android:layout_marginTop="15dp"
+        android:layout_height="wrap_content"
+        android:columnCount="7"
+        android:orientation="horizontal"
+        android:rowCount="1"
+        android:useDefaultMargins="true"
+        tools:context=".GridXMLActivity">
+
+        <TextView
+            android:id="@+id/tv0"
+            android:layout_gravity="left|top"
+            android:padding="15dip"
+            android:textColor="#ffffff"
+            android:text="SU"
+
+            />
+
+        <TextView
+            android:id="@+id/tv1"
+            android:layout_gravity="left|top"
+            android:padding="15dip"
+            android:textColor="#ffffff"
+            android:text="MO" />
+
+        <TextView
+            android:id="@+id/tv2"
+            android:layout_gravity="left|top"
+            android:textColor="#ffffff"
+            android:padding="15dip"
+            android:text="TU" />
+
+        <TextView
+            android:id="@+id/tv3"
+            android:layout_gravity="left|top"
+            android:textColor="#ffffff"
+            android:padding="15dip"
+            android:text="WED" />
+
+        <TextView
+            android:id="@+id/tv6"
+            android:layout_gravity="left|top"
+            android:textColor="#ffffff"
+            android:padding="15dip"
+            android:text="THU" />
+
+        <TextView
+            android:id="@+id/tv4"
+            android:textColor="#ffffff"
+            android:layout_gravity="left|top"
+            android:padding="15dip"
+            android:text="FRI" />
+
+        <TextView
+            android:textColor="#ffffff"
+            android:id="@+id/tv5"
+            android:layout_gravity="left|top"
+            android:padding="15dip"
+            android:text="SA" />
+
+    </GridLayout>
+
+    <com.kizitonwose.calendarview.CalendarView
+        android:id="@+id/calendarView"
+        android:layout_marginTop="60dp"
+        android:layout_width="match_parent"
+        android:layout_height="90dp"
+        android:background="#00000000"
+        app:cv_monthHeaderResource="@layout/calendar_month_layot"
+        app:cv_dayViewResource="@layout/calendar_day_layout" />
+
+
+</RelativeLayout>
